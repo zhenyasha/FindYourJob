@@ -10,10 +10,9 @@ body {
   color: #111238;
 }
 
-.d-flex {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .list {
@@ -61,6 +60,7 @@ body {
   background-color: #1A75E8;
   border-radius: 5px;
   padding: 15px 30px;
+  cursor: pointer;
 }
 
 .job {
@@ -129,6 +129,9 @@ body {
 
 .input-button {
   border: none;
+  min-width: 211px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .input::-webkit-input-placeholder {
