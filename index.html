@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сервис для поиска работы FindYourJob</title>
+    <title>Сервис для поиска удаленной работы FindYourJob</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap-grid.min.css">
@@ -45,9 +45,103 @@
                 <!-- /.col -->
             </div>
             <!-- /.row -->
+
+            <div class="row job">
+                <div class="col-5 job-left">
+                    <h1 class="heading">Найдите удаленную работу вашей мечты</h1>
+                    <p class="job-text">Создайте резюме или отправьте отклик на вакансию в компании с мировым именем и
+                        работайте по
+                        свободному графику</p>
+                    <div class="input-block">
+                        <input class="input" type="text" placeholder="Начните поиск">
+                        <button class="button input-button">
+                            <span class="button-text">Искать вакансии</span>
+                        </button>
+                    </div>
+                    <div class="tags d-flex">
+                        <p class="tags__text">Например:</p>
+                        <ul class="list tags__list d-flex">
+                            <li class="tags__item"><a class="link tags__link" href="#">Front-end</a></li>
+                            <li class="tags__item"><a class="link tags__link" href="#">Back-end</a></li>
+                            <li class="tags__item"><a class="link tags__link" href="#">Designer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.col-5 -->
+                <div class="col-6 offset-1">
+                    <img class="hero-img" src="img/hero-image.svg" alt="Картинка: люди с нойтбуками">
+                </div>
+                <!-- /.col-6 offset-1 -->
+            </div>
+            <!-- /.row -->
         </div>
         <!-- /.container -->
     </header>
+    <section class="category">
+        <div class="container">
+            <div class="row">
+                <h2 class="category__heading">Категории</h2>
+                <ul class="list category__list d-flex justify-content-between">
+                    <li class="item col category__item">
+                        <a href="#" class="link category__link d-flex flex-column">
+                            <svg width="24" height="24" class="icon">
+                                <use xlink:href="img/icon.svg#disign">
+                                </use>
+                            </svg>
+                            <span class="category-text">Дизайн</span>
+                        </a>
+                    </li>
+                    <li class="item col category__item">
+                        <a href="#" class="link category__link d-flex flex-column">
+                            <svg width="24" height="24" class="icon">
+                                <use xlink:href="img/icon.svg#browser">
+                                </use>
+                            </svg>
+                            <span class="category-text">Разработка</span>
+                        </a>
+                    </li>
+                    <li class="item col category__item">
+                        <a href="#" class="link category__link d-flex flex-column">
+                            <svg width="26" height="24" class="icon">
+                                <use xlink:href="img/icon.svg#edit">
+                                </use>
+                            </svg>
+                            <span class="category-text">Копирайтинг</span>
+                        </a>
+                    </li>
+                    <li class="item col category__item">
+                        <a href="#" class="link category__link d-flex flex-column">
+                            <svg width="23" height="24" class="icon">
+                                <use xlink:href="img/icon.svg#fingerprint">
+                                </use>
+                            </svg>
+                            <span class="category-text">Безопасность</span>
+                        </a>
+                    </li>
+                    <li class="item col category__item">
+                        <a href="#" class="link category__link d-flex flex-column">
+                            <svg width="24" height="24" class="icon">
+                                <use xlink:href="img/icon.svg#camera">
+                                </use>
+                            </svg>
+                            <span class="category-text">Видео</span>
+                        </a>
+                    </li>
+                    <li class="item col category__item">
+                        <a href="#" class="link category__link d-flex flex-column">
+                            <svg width="24" height="24" class="icon">
+                                <use xlink:href="img/icon.svg#school">
+                                </use>
+                            </svg>
+                            <span class="category-text">Образование</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.row -->
+        </div>
+    </section>
+
 </body>
 
 </html>
